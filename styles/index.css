@@ -1,0 +1,92 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+}
+
+main {
+  display: flex;
+}
+
+header {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* newTaskContainer  */
+
+#newTaskContainer {
+  padding: 30px 0;
+  width: 50%;
+}
+
+#newTaskContainer h3 {
+  text-align: center;
+}
+
+#newTaskForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#newTaskForm input {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+#newTaskForm label {
+  margin: 5px 0;
+}
+
+/* todosContainer */
+#todosContainer {
+  padding: 30px 0;
+  width: 50%;
+}
+
+#todosContainer h3 {
+  text-align: center;
+}
+
+#todoTable {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+}
+
+#todoTable td,
+#todoTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#todoTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#todoTable tr:hover {
+  background-color: #ddd;
+}
+
+/* Buttons */
+.completedBtn {
+  padding: 10px;
+  border: none;
+  background-color: rgb(121, 223, 121);
+  width: 80%;
+}
+
+.deleteBtn {
+  padding: 10px;
+  border: none;
+  background-color: rgb(223, 121, 121);
+  width: 80%;
+}

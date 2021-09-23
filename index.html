@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CUSTOM STYLING -->
+    <link rel="stylesheet" href="./styles/index.css" />
+    <!-- CUSTOM SCRIPT -->
+    <script defer src="./scripts/scripts.js"></script>
+    <title>ToDo</title>
+  </head>
+  <body>
+    <header><h1>TODO</h1></header>
+    <main>
+      <section id="newTaskContainer">
+        <h3>Create New Task</h3>
+        <form id="newTaskForm">
+          <label for="taskTitle">Enter Description</label>
+          <input type="text" id="taskTitle" required />
+
+          <label for="taskDescription">Enter Task</label>
+          <textarea
+            id="taskDescription"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+
+          <label for="taskDate">Enter Deadline</label>
+          <input type="date" id="taskDate" required />
+
+          <input type="submit" />
+        </form>
+      </section>
+      <section id="todosContainer">
+        <h3>Your TODO's</h3>
+        <table id="todoTable"></table>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
